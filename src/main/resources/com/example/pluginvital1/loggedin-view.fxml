@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="aP3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #d3d3d3;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pluginvital1.ControllerLoggedin">
+    <children>
+        <Label fx:id="labelAccountInfo" layoutX="221.0" layoutY="71.0" prefHeight="83.0" prefWidth="176.0" text="Account Info">
+            <font>
+                <Font name="Arial Black" size="24.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="logo" fitHeight="91.0" fitWidth="117.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../gui/pathomation-logo-black.png" />
+            </image>
+        </ImageView>
+      <Text fx:id="version" layoutX="99.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="version:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="build" layoutX="99.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="build:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="api" layoutX="99.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="api:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="rootDirectories" layoutX="99.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="root directories">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="slides" layoutX="99.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="slides:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="buttonLogout" layoutX="457.0" layoutY="345.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="Logout">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
